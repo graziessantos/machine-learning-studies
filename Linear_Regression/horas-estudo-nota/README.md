@@ -61,13 +61,4 @@ Cada script abre uma janela com o gráfico da reta de regressão sobre os dados.
 - Avalia o modelo no conjunto de teste usando `.score()`, que retorna o **R² (coeficiente de determinação)** — quanto mais próximo de 1, melhor o modelo explica a variação dos dados.
 - Plota apenas os pontos de treino junto com a reta ajustada.
 
-## 📈 Próximos passos (ideias de evolução)
-
-- Adicionar métricas extras como MAE e RMSE.
-- Plotar também os pontos de teste no gráfico, diferenciando por cor.
-- Testar regressão polinomial para capturar relações não lineares.
-- Salvar o modelo treinado com `joblib` ou `pickle`.
-
----
-
 📚 Projeto feito para estudo de Machine Learning com Python e scikit-learn.
